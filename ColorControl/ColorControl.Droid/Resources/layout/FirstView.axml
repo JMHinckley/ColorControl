@@ -6,6 +6,6 @@
     </android.support.design.widget.AppBarLayout>
         <LinearLayout android:layout_below="@id/toolbar_layout" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
             <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="40dp" android:inputType="textNoSuggestions" local:MvxBind="Text Hello" />
-            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="40dp" local:MvxBind="Text Hello" />
+            <TextView android:id="@+id/textView1" android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="40dp" local:MvxBind="Text Hello" />
         </LinearLayout>
 </RelativeLayout>
